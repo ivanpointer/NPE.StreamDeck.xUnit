@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPE.StreamDeck.xUnit", "NPE.StreamDeck.xUnit\NPE.StreamDeck.xUnit.csproj", "{4635D874-69C0-4010-BE46-77EF92EB1553}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "Build\Build.csproj", "{6B21BCE0-4541-4C9C-BF48-D6BF8339BBD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{E613051A-7D07-47DE-9206-553575C1ABF5}"
+	ProjectSection(SolutionItems) = preProject
+		Build.ps1 = Build.ps1
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4635D874-69C0-4010-BE46-77EF92EB1553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4635D874-69C0-4010-BE46-77EF92EB1553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4635D874-69C0-4010-BE46-77EF92EB1553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4635D874-69C0-4010-BE46-77EF92EB1553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B21BCE0-4541-4C9C-BF48-D6BF8339BBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B21BCE0-4541-4C9C-BF48-D6BF8339BBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B21BCE0-4541-4C9C-BF48-D6BF8339BBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B21BCE0-4541-4C9C-BF48-D6BF8339BBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B2E83F-C2B4-439F-9B55-4B3FF4933120}
+	EndGlobalSection
+EndGlobal

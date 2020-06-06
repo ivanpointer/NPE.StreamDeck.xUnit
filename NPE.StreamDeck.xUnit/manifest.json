@@ -1,0 +1,38 @@
+{
+    "Actions": [
+        {
+            "Icon": "Images/icon",
+            "Name": "Test Results Reader",
+            "States": [
+                {
+                    "Image": "Images/testResultsReader",
+                    "TitleAlignment": "middle",
+                    "FontSize": "12"
+                }
+            ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "Execute a xUnit collection",
+            "UUID": "npe.streamdeck.xunit.testresultsreader",
+            "PropertyInspectorPath": "PropertyInspector/testResultsReaderPI.html"
+        }
+    ],
+    "Author": "Null Pointer Expert (NPE)",
+    "Name": "npe.streamdeck.xunit",
+    "Description": "Various actions for running xUnit tests.",
+    "Icon": "Images/pluginIcon",
+    "URL": "https://github.com/ivanpointer/NPE.StreamDeck.xUnit",
+    "Version": "1.0",
+    "CodePath": "NPE.StreamDeck.xUnit",
+    "Category": "xUnit [NPE]",
+    "CategoryIcon": "Images/categoryIcon",
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "SDKVersion": 2,
+    "Software": {
+        "MinimumVersion": "4.3"
+    }
+}

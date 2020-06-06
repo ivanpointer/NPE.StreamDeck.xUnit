@@ -1,0 +1,1 @@
+.\Build\bin\Debug\netcoreapp3.1\Build.exe
